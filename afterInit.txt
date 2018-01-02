@@ -1,0 +1,141 @@
+ Volume in drive D is DATA
+ Volume Serial Number is E252-B957
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo
+
+02-Jan-18  06:19 PM    <DIR>          .
+02-Jan-18  06:19 PM    <DIR>          ..
+02-Jan-18  05:55 PM    <DIR>          .git
+02-Jan-18  05:53 PM                12 .gitignore
+01-Jan-18  10:33 AM    <DIR>          .idea
+02-Jan-18  06:19 PM                 0 afterInit.txt
+29-Dec-17  03:46 PM    <DIR>          bcrytor
+01-Jan-18  02:05 PM    <DIR>          concurrency
+29-Dec-17  03:46 PM    <DIR>          json
+02-Jan-18  05:51 PM                12 README.md
+               3 File(s)             24 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git
+
+02-Jan-18  05:55 PM    <DIR>          .
+02-Jan-18  05:55 PM    <DIR>          ..
+02-Jan-18  05:54 PM               130 config
+02-Jan-18  05:54 PM                73 description
+02-Jan-18  05:54 PM                23 HEAD
+02-Jan-18  05:54 PM    <DIR>          hooks
+02-Jan-18  05:54 PM    <DIR>          info
+02-Jan-18  05:54 PM    <DIR>          objects
+02-Jan-18  05:54 PM    <DIR>          refs
+               3 File(s)            226 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git\hooks
+
+02-Jan-18  05:54 PM    <DIR>          .
+02-Jan-18  05:54 PM    <DIR>          ..
+02-Jan-18  05:54 PM               478 applypatch-msg.sample
+02-Jan-18  05:54 PM               896 commit-msg.sample
+02-Jan-18  05:54 PM               189 post-update.sample
+02-Jan-18  05:54 PM               424 pre-applypatch.sample
+02-Jan-18  05:54 PM             1,642 pre-commit.sample
+02-Jan-18  05:54 PM             1,348 pre-push.sample
+02-Jan-18  05:54 PM             4,898 pre-rebase.sample
+02-Jan-18  05:54 PM               544 pre-receive.sample
+02-Jan-18  05:54 PM             1,492 prepare-commit-msg.sample
+02-Jan-18  05:54 PM             3,610 update.sample
+              10 File(s)         15,521 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git\info
+
+02-Jan-18  05:54 PM    <DIR>          .
+02-Jan-18  05:54 PM    <DIR>          ..
+02-Jan-18  05:54 PM               240 exclude
+               1 File(s)            240 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git\objects
+
+02-Jan-18  05:54 PM    <DIR>          .
+02-Jan-18  05:54 PM    <DIR>          ..
+02-Jan-18  05:54 PM    <DIR>          info
+02-Jan-18  05:54 PM    <DIR>          pack
+               0 File(s)              0 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git\objects\info
+
+02-Jan-18  05:54 PM    <DIR>          .
+02-Jan-18  05:54 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git\objects\pack
+
+02-Jan-18  05:54 PM    <DIR>          .
+02-Jan-18  05:54 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git\refs
+
+02-Jan-18  05:54 PM    <DIR>          .
+02-Jan-18  05:54 PM    <DIR>          ..
+02-Jan-18  05:54 PM    <DIR>          heads
+02-Jan-18  05:54 PM    <DIR>          tags
+               0 File(s)              0 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git\refs\heads
+
+02-Jan-18  05:54 PM    <DIR>          .
+02-Jan-18  05:54 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.git\refs\tags
+
+02-Jan-18  05:54 PM    <DIR>          .
+02-Jan-18  05:54 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.idea
+
+01-Jan-18  10:33 AM    <DIR>          .
+01-Jan-18  10:33 AM    <DIR>          ..
+19-Dec-17  07:59 AM               281 gogogo.iml
+19-Dec-17  08:03 AM    <DIR>          inspectionProfiles
+19-Dec-17  07:59 AM               264 modules.xml
+01-Jan-18  10:33 AM            26,234 workspace.xml
+               3 File(s)         26,779 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\.idea\inspectionProfiles
+
+19-Dec-17  08:03 AM    <DIR>          .
+19-Dec-17  08:03 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\bcrytor
+
+29-Dec-17  03:46 PM    <DIR>          .
+29-Dec-17  03:46 PM    <DIR>          ..
+29-Dec-17  03:46 PM             1,483 bcryptor.go
+               1 File(s)          1,483 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\concurrency
+
+01-Jan-18  02:05 PM    <DIR>          .
+01-Jan-18  02:05 PM    <DIR>          ..
+30-Dec-17  11:41 PM               493 1_unsynch.go
+30-Dec-17  11:42 PM               555 2_synchConcurrency.go
+31-Dec-17  08:25 PM               919 3_raceCondition.go
+01-Jan-18  02:05 PM                 0 4_mutex.go
+31-Dec-17  09:13 PM               604 5_atomic.go
+               5 File(s)          2,571 bytes
+
+ Directory of D:\Projects\Go\src\github.com\gonego\gogogo\json
+
+29-Dec-17  03:46 PM    <DIR>          .
+29-Dec-17  03:46 PM    <DIR>          ..
+19-Dec-17  08:29 PM                79 fiona.json
+29-Dec-17  03:46 PM               354 main.go
+29-Dec-17  03:46 PM               667 streamJsonFromFile.go
+29-Dec-17  03:46 PM               462 streamJsonToFile.go
+19-Dec-17  12:18 AM               113 vee.json
+               5 File(s)          1,675 bytes
+
+     Total Files Listed:
+              31 File(s)         48,519 bytes
+              44 Dir(s)  228,386,562,048 bytes free
