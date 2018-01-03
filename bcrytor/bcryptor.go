@@ -1,5 +1,4 @@
-package bcrytor
-
+package main
 import "fmt"
 import "golang.org/x/crypto/bcrypt"
 
