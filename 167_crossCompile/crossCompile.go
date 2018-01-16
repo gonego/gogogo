@@ -1,7 +1,8 @@
 package main
+
 import (
-"fmt"
-"runtime"
+	"fmt"
+	"runtime"
 )
 
 func main() {

@@ -34,7 +34,7 @@ func main() {
 			//other goroutines to run. It does not
 			//suspend the current goroutine,
 			//so execution resumes automatically
-			//runtime.Gosched()
+			runtime.Gosched()
 
 			//increment the value
 			v++
