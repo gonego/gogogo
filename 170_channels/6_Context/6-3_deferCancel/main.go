@@ -13,7 +13,7 @@ func main() {
 	//not until function main completes
 	defer cancel()
 
-	for v := range operate(ctx) {
+	for v := range getNumbers(ctx) {
 		fmt.Println(v)
 		if v == 10 {
 			break
@@ -21,18 +21,18 @@ func main() {
 	}
 }
 
-func operate(ctx context.Context) <-chan int {
-	c := make(chan int)
+func getNumbers(ctx context.Context) <-chan int {
+	numbers := make(chan int)
 	counter := 1
 	go func() {
 		for {
 			select {
 			case <-ctx.Done():
-				return
-			case c <- counter:
+				return //to ensure no leak
+			case numbers <- counter:
 				counter++
 			}
 		}
 	}()
-	return c
+	return numbers
 }
