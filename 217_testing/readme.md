@@ -1,29 +1,24 @@
-#COMPONENT OF TEST SUITE
-
+# COMPONENT OF TEST SUITE
 - Test
 - Benchmark
 - Testable Example
 
 # TEST
-
 ```
 TestXxx(t *testing.T)
 ```
 
-#BENCHMARK
-
+# BENCHMARK
 ```
 BenchmarkXxx(b *testing.B)
 ```
 
-#TESTABLE EXAMPLE
-
+# TESTABLE EXAMPLE
 ```
 ExampleXxx()
 ```
 
 # Commands
-
 ```
 godoc -http=:6060   // note: 6060 is the port number
 
